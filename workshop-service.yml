@@ -2,6 +2,11 @@
   config:
     activate:
       on-profile: default
+#MongoDB properties
+  data:
+    mongodb:
+      uri: mongodb://user:password@localhost/car-service-nosql-db
+      auto-index-creation: true
 
 #Eureka properties
 eureka:
@@ -12,12 +17,6 @@ eureka:
     register-with-eureka: true
   instance:
     preferIpAddress: true
-
-#MongoDB properties
-  data:
-    mongodb:
-      uri: mongodb://user:password@localhost/car-service-nosql-db
-      auto-index-creation: true
 
 ---
 spring:
