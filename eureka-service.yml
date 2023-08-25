@@ -1,0 +1,22 @@
+﻿spring:
+  config:
+    activate:
+      on-profile: default
+
+    #Eureka properties
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
+
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+
