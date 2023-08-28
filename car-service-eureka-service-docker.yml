@@ -1,7 +1,7 @@
 spring:
   config:
     activate:
-      on-profile: dev
+      on-profile: docker
   cloud:
     config:
       uri: http://car-service-config-service:8888
