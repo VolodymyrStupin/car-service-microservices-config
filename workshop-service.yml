@@ -1,6 +1,6 @@
-﻿spring:
- 
+
 #MongoDB properties
+spring:
   data:
     mongodb:
       uri: mongodb://user:password@localhost/car-service-nosql-db
