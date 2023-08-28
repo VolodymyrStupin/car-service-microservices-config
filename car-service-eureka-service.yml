@@ -1,13 +1,13 @@
-﻿spring:
-  config:
-    activate:
-      on-profile: default
+# ﻿spring:
+#   config:
+#     activate:
+#       on-profile: default
       
-#Eureka properties
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+# #Eureka properties
+# eureka:
+#   client:
+#     register-with-eureka: false
+#     fetch-registry: false
 
 
 ---
