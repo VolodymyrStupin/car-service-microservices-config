@@ -8,17 +8,3 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-
-
----
-spring:
-  config:
-    activate:
-      on-profile: docker
-      
-#Eureka properties
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-
