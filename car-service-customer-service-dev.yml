@@ -2,11 +2,6 @@
   config:
     activate:
       on-profile: dev
-  cloud:
-    config:
-      uri: http://localhost:8888
-      enabled: true
-
 
 #Datasource properties
   datasource:
