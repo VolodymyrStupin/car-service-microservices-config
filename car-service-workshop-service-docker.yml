@@ -1,1 +1,24 @@
-
+spring:
+  config:
+    activate:
+      on-profile: docker
+  cloud:
+    config:
+      uri: http://car-service-config-service:8888
+      enabled: true
+      
+#MongoDB properties
+  data:
+    mongodb:
+      uri: mongodb://user:password@car-service-mongodb/car-service-nosql-db
+      auto-index-creation: true
+      
+#Eureka properties
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://car-service-eureka-service:8761/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+  instance:
+    preferIpAddress: true
