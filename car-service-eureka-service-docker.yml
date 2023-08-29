@@ -2,10 +2,6 @@ spring:
   config:
     activate:
       on-profile: docker
-  cloud:
-    config:
-      uri: http://car-service-config-service:8888
-      enabled: true
       
 #Eureka properties
 eureka:
